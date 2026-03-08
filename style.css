@@ -1,0 +1,121 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+scroll-behavior:smooth;
+}
+
+
+/* Header */
+
+header{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+
+/* Hero */
+
+.hero{
+background:#3498db;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+
+/* Destinations */
+
+.places{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+width:220px;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+
+/* Travel Tips */
+
+.tips{
+background:white;
+padding:40px;
+text-align:center;
+}
+
+.tips ul{
+list-style:none;
+padding:0;
+}
+
+.tips li{
+margin:10px 0;
+}
+
+
+/* Contact / Feedback */
+
+.contact{
+padding:40px;
+text-align:center;
+}
+
+form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+input, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+padding:10px;
+background:#3498db;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2980b9;
+}
+
+
+/* Footer */
+
+footer{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
